@@ -16,7 +16,7 @@ namespace Hangman
             playerInterface = new PlayerInterface();
             wordbank = new WordBank();
             var answer = wordbank.GetWord();
-            var guesses = 11;
+            var guesses = 10;
             game = new Game(guesses, answer);
         }
 
