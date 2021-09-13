@@ -3,21 +3,12 @@ using System.Collections.Generic;
 
 namespace Hangman
 {
-    public class Program
+    class Program
     {
         static void Main(string[] args)
         {
-            var words = new List<string>()
-            {
-               "Different",
-               "Goodbye",
-               "Greetings",
-
-            };
-
-            var wordbank = new WordBank();
-
-            var word = wordbank.GetWord();
+            var hangman = new Hangman();
+            hangman.Run();
         }
     }
 }
