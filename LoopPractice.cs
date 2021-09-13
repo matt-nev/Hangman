@@ -6,35 +6,33 @@ using System.Threading.Tasks;
 
 namespace Hangman
 {
-   
+
     class LoopPractice
     {
-        static void Main(string[] args)
-        { 
-
-            var numbers = new int[][]
-            {
-                new int [] {1,2,3},
-                new int [] {4,5,6},
-                new int [] {7,8,9},
-                new int [] {10, 11, 12, 13 },
-            };
-
-            for (var i = 0; i < numbers.Length; i++)
-            {
-                for (var k = 0; k<numbers[i].Length; k++)
-                {
-                    Console.WriteLine(numbers[i][k]);
-                }
-            }
-        }   
     }
+
 }
+//        static void Main(string[] args)
+//        { 
 
+//            var numbers = new int[][]
+//            {
+//                new int [] {1,2,3},
+//                new int [] {4,5,6},
+//                new int [] {7,8,9},
+//                new int [] {10, 11, 12, 13 },
+//            };
 
-
-
-
+//            for (var i = 0; i < numbers.Length; i++)
+//            {
+//                for (var k = 0; k<numbers[i].Length; k++)
+//                {
+//                    Console.WriteLine(numbers[i][k]);
+//                }
+//            }
+//        }   
+//    }
+//}
 
 //        // LoopPractice 
 
@@ -51,10 +49,6 @@ namespace Hangman
 
 //    i++; // could also be i = i + 2;
 //}
-
-
-
-
 
 
 //// #5 on loop ractice
@@ -94,25 +88,25 @@ namespace Hangman
 //var k = 0; public class Class1
 //{
 
-   public LoopsDemo()
-    {
-       // Starting Point 
-        // Condition - When to continue 
-        // increment
-       string word = "Hello World";
+   //public LoopsDemo()
+   // {
+   //    // Starting Point 
+   //     // Condition - When to continue 
+   //     // increment
+   //    string word = "Hello World";
 
-        for (var i = 0; i < word.Length; i++)
-        {
+   //     for (var i = 0; i < word.Length; i++)
+   //     {
 
-            Console.WriteLine(word[i]);       }
+   //         Console.WriteLine(word[i]);       }
 
-       var k = 0;
-      while (k < word.Length)
-       {
-            Console.WriteLine(word[k]);
+   //    var k = 0;
+   //   while (k < word.Length)
+   //    {
+   //         Console.WriteLine(word[k]);
 
-           k++;
-       }
+   //        k++;
+   //    }
 
 
 
